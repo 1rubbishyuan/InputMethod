@@ -208,10 +208,9 @@ def get_number_to_word(path):
 
 if __name__ == "__main__":
     print("get_word_times")
-    # cal_word_times()
-    # cal_w2n()
-    # cal_n2w()
+    cal_word_times()
+    cal_w2n()
+    cal_n2w()
+    cal_first_word_times()
     print("get_three_grammer")
     train_three_grammer_times()
-    with open(args.output_path_times, "rb") as f:
-        data = pickle.load(f)

@@ -183,10 +183,10 @@ def get_number_to_word(path):
 
 
 if __name__ == "__main__":
-    # print("get_word_times")
-    # cal_word_times()
-    # cal_w2n()
-    # cal_n2w()
-    # print("get_two_grammer")
-    # train_two_grammer_times()
+    print("get_word_times")
+    cal_word_times()
+    cal_w2n()
+    cal_n2w()
     cal_first_word_times()
+    print("get_two_grammer")
+    train_two_grammer_times()
